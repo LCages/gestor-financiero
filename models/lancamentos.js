@@ -1,4 +1,4 @@
-  const { DataTypes } = require('sequelize');
+const { DataTypes } = require('sequelize');
   const sequelize = require('../config/database');
   const Cartoes = require('./cartoes');
   const Usuarios = require('./usuarios');
@@ -24,7 +24,8 @@
         'Compras',
         'Passeio',
         'Salário',
-        "Adiantamento",
+        'Adiantamento',
+        'Transferencia',
         'Outros'
       ),
       allowNull: false
