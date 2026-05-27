@@ -24,6 +24,7 @@
         'Compras',
         'Passeio',
         'Salário',
+        "Adiantamento",
         'Outros'
       ),
       allowNull: false
